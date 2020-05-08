@@ -1,0 +1,33 @@
+# Name of this project
+name: sentry
+
+# License of this project
+license: APACHE2
+
+# Canonical GitHub repo
+github_repo: cloudposse/sentry
+
+# Logo for this project
+#logo: docs/logo.png
+
+# Badges to display
+badges:
+  - name: "Slack Community"
+    image: "https://slack.cloudposse.com/badge.svg"
+    url: "https://slack.cloudposse.com"
+
+description: |-
+
+  Sentry 9 is not going to be develop further but we ran into issue with PagerDuty integration which this repository fixes.
+
+  > Pagerduty recently started enforcing strict parameter types and has been rejecting our requests for a few days now.
+  https://github.com/getsentry/sentry-plugins/pull/469
+
+usage: |-
+
+  Use docker image `cloudposse/sentry:9.1.3`
+
+# Contributors to this project
+contributors:
+  - name: "Marcin Brański"
+    github: "3h4x"
